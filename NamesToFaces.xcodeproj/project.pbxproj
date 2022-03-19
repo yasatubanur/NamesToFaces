@@ -13,6 +13,7 @@
 		ABB6807E27E3DA4C00F06A38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABB6807C27E3DA4C00F06A38 /* Main.storyboard */; };
 		ABB6808027E3DA4E00F06A38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB6807F27E3DA4E00F06A38 /* Assets.xcassets */; };
 		ABB6808327E3DA4E00F06A38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABB6808127E3DA4E00F06A38 /* LaunchScreen.storyboard */; };
+		ABB6808D27E45E1A00F06A38 /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB6808C27E45E1A00F06A38 /* PersonCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		ABB6807F27E3DA4E00F06A38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABB6808227E3DA4E00F06A38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABB6808427E3DA4E00F06A38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABB6808C27E45E1A00F06A38 /* PersonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				ABB6807827E3DA4C00F06A38 /* SceneDelegate.swift */,
 				ABB6807A27E3DA4C00F06A38 /* ViewController.swift */,
 				ABB6807C27E3DA4C00F06A38 /* Main.storyboard */,
+				ABB6808C27E45E1A00F06A38 /* PersonCell.swift */,
 				ABB6807F27E3DA4E00F06A38 /* Assets.xcassets */,
 				ABB6808127E3DA4E00F06A38 /* LaunchScreen.storyboard */,
 				ABB6808427E3DA4E00F06A38 /* Info.plist */,
@@ -140,6 +143,7 @@
 			files = (
 				ABB6807B27E3DA4C00F06A38 /* ViewController.swift in Sources */,
 				ABB6807727E3DA4C00F06A38 /* AppDelegate.swift in Sources */,
+				ABB6808D27E45E1A00F06A38 /* PersonCell.swift in Sources */,
 				ABB6807927E3DA4C00F06A38 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
