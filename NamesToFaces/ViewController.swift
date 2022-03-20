@@ -82,6 +82,11 @@ class ViewController: UICollectionViewController,UIImagePickerControllerDelegate
         })
         
         ac.addAction(UIAlertAction(title: "Cancel", style: .cancel))
+        ac.addAction(UIAlertAction(title: "Delete", style: .destructive) { [weak self] _ in
+                        self?.people.remove(at: indexPath.item)
+                        self?.collectionView.reloadData() // either this one
+                        self?.collectionView.deleteItems(at: [indexPath]) // or this one
+                    })
         present(ac,animated: true)
     }
 }
