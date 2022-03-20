@@ -44,7 +44,6 @@
 		ABB6806A27E3DA4C00F06A38 = {
 			isa = PBXGroup;
 			children = (
-				AB00E13827E5A63600599FBB /* Person.swift */,
 				ABB6807527E3DA4C00F06A38 /* NamesToFaces */,
 				ABB6807427E3DA4C00F06A38 /* Products */,
 			);
@@ -61,6 +60,7 @@
 		ABB6807527E3DA4C00F06A38 /* NamesToFaces */ = {
 			isa = PBXGroup;
 			children = (
+				AB00E13827E5A63600599FBB /* Person.swift */,
 				ABB6807627E3DA4C00F06A38 /* AppDelegate.swift */,
 				ABB6807827E3DA4C00F06A38 /* SceneDelegate.swift */,
 				ABB6807A27E3DA4C00F06A38 /* ViewController.swift */,
